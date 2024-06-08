@@ -150,7 +150,7 @@ le.fit(y)
 # Load additional data
 def getSeverityDict():
     severityDictionary = {}
-    file_path = Path('MasterData/symptom_severity.csv')
+    file_path = Path('symptom_severity.csv')
     with file_path.open() as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         for row in csv_reader:
@@ -161,7 +161,7 @@ def getSeverityDict():
 
 def getDescription():
     description_list = {}
-    file_path = Path('MasterData/symptom_Description.csv')
+    file_path = Path('symptom_Description.csv')
     with file_path.open() as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         for row in csv_reader:
@@ -172,7 +172,7 @@ def getDescription():
 
 def getprecautionDict():
     precautionDictionary = {}
-    file_path = Path('MasterData/symptom_precaution.csv')
+    file_path = Path('symptom_precaution.csv')
     with file_path.open() as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         for row in csv_reader:
