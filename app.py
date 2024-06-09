@@ -353,7 +353,8 @@ st.title("Uganda Christian University Healthcare Diagnosis Assistant Project")
 
 st.sidebar.subheader("Hillary Luboyera")
 st.sidebar.subheader("Serunjogi Ezekiel Mulondo")
-st.sidebar.subheader("Andrew Angenrwot")
+st.sidebar.subheader("Andrew Ronnie Engirot")
+st.sidebar.subheader("Comfort Agaba")
 
 st.subheader("Enter your symptoms")
 symptoms_input = st.text_area("Type your symptoms separated by commas")
