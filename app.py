@@ -404,6 +404,6 @@ if st.button("Diagnose"):
             st.write("Caution: This prediction may not be accurate, please seek advice from a health care proffessional")
         else:
             st.write("Condition: Might not be critical but should take precautions")
-            st.write("Caution: This prediction may not be accurate, please seek advice from a health care proffessional")
+            st.write("**Caution: This prediction may not be accurate, please seek advice from a health care proffessional**")
     else:
         st.write("Please select at least one symptom for diagnosis.")
