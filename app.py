@@ -401,7 +401,9 @@ if st.button("Diagnose"):
         st.write(f"Total Severity Score: {severity_score:.2f}")
         if severity_score > 13:
             st.write("Condition: Critical, needs immediate attention")
+            st.write("Caution: This prediction may not be accurate, please seek advice from a health care proffessional")
         else:
             st.write("Condition: Might not be critical but should take precautions")
+            st.write("Caution: This prediction may not be accurate, please seek advice from a health care proffessional")
     else:
         st.write("Please select at least one symptom for diagnosis.")
